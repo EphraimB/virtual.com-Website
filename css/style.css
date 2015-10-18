@@ -13,3 +13,5 @@ body{background-color: red;}
 .Red:hover{background-color: rgb(75,0,0);}
 
 .Summary{color: white; text-align: center;}
+
+progress{position: relative; width: 200px; height: 200px; border-radius: 50px; opacity: 0.5;}

@@ -32,7 +32,7 @@ document.body.appendChild(summaryHolder);
 
 hub.onclick = function VirtualHub()
 {
-alert("In development");
+
 };
 
 settings.onclick = function Settings()
