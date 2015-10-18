@@ -19,6 +19,13 @@ var location = document.getElementById("location");
 
 var locationText = document.createTextNode(" Earpads");
 location.appendChild(locationText);
+
+var summaryHolder = document.createElement("p");
+summaryHolder.setAttribute("class", "Summary");
+
+var summary = document.createTextNode("The Virtual Earpads is an innovative product");
+summaryHolder.appendChild(summary);
+document.body.appendChild(summaryHolder);
 };
 
 hub.onclick = function VirtualHub()

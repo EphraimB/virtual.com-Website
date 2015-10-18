@@ -11,3 +11,5 @@ body{background-color: red;}
 .Green:hover{background-color: rgb(0,75,0);}
 .Red{position: relative; width: 200px; height: 200px; background-color: red; left: 700px; top: 50px;}
 .Red:hover{background-color: rgb(75,0,0);}
+
+.Summary{color: white; text-align: center;}
