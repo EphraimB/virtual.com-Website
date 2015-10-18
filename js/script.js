@@ -11,7 +11,14 @@ settings.style.display = "none";
 
 earpads.onclick = function VirtualEarpads()
 {
-alert("Coming soon...");
+document.title = "Virtual-Earpads";
+
+clearPage()
+
+var location = document.getElementById("location");
+
+var locationText = document.createTextNode(" Earpads");
+location.appendChild(locationText);
 };
 
 hub.onclick = function VirtualHub()
