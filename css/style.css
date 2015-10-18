@@ -4,3 +4,4 @@ h1{text-align: center; color: blue;}
 .app:hover{background-color: white;}
 #hub{left: 200px; top: 200px; background-image: url(../images/VirtualHub.gif); background-repeat: no-repeat; background-position: center;}
 #earpads{left: 800px; top: 200px; background-image: url(../images/VirtualEarpads.gif); background-repeat: no-repeat; background-position: center;}
+#settings{left: 800px; top: 200px; background-image: url(../images/Settings.gif); background-repeat: no-repeat; background-position: center;}
