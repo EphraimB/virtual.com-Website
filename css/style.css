@@ -2,5 +2,5 @@ body{background-color: red;}
 h1{text-align: center; color: blue;}
 .app{float: left; position: relative; width: 200px; height: 200px; border-radius: 50px; background-color: yellow; border: 5px solid white;}
 .app:hover{background-color: white;}
-#hub{background-image: url(../images/VirtualHub.gif); background-repeat: no-repeat; background-position: center;}
-#earpads{background-image: url(../images/VirtualEarpads.gif); background-repeat: no-repeat; background-position: center;}
+#hub{left: 200px; top: 200px; background-image: url(../images/VirtualHub.gif); background-repeat: no-repeat; background-position: center;}
+#earpads{left: 800px; top: 200px; background-image: url(../images/VirtualEarpads.gif); background-repeat: no-repeat; background-position: center;}
