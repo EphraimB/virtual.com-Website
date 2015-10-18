@@ -26,6 +26,8 @@ summaryHolder.setAttribute("class", "Summary");
 var summary = document.createTextNode("The Virtual Earpads is an innovative product");
 summaryHolder.appendChild(summary);
 document.body.appendChild(summaryHolder);
+
+
 };
 
 hub.onclick = function VirtualHub()
