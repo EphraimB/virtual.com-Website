@@ -6,4 +6,8 @@ h1{text-align: center; color: blue;}
 #earpads{left: 800px; top: 200px; background-image: url(../images/VirtualEarpads.gif); background-repeat: no-repeat; background-position: center;}
 #settings{left: 800px; top: 200px; background-image: url(../images/Settings.gif); background-repeat: no-repeat; background-position: center;}
 
-.PersonalizationHeader{text-align: center; color: blue;}
+.PersonalizationHeader{text-align: center; color: blue; position: relative; top: 200px;}
+.Green{position: relative; width: 200px; height: 200px; background-color: green; left: 400px; top: 250px;}
+.Green:hover{background-color: rgb(0,75,0);}
+.Red{position: relative; width: 200px; height: 200px; background-color: red; left: 400px; top: 250px;}
+.Red:hover{background-color: rgb(75,0,0);}

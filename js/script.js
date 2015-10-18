@@ -27,8 +27,29 @@ clearPage();
 
 var personalizationHeaderHolder = document.createElement("h2");
 
-var personalizationHeader = document.createTextNode("Personalization");
+var personalizationHeader = document.createTextNode("---Personalization---");
 personalizationHeaderHolder.appendChild(personalizationHeader);
 document.body.appendChild(personalizationHeaderHolder);
 personalizationHeaderHolder.setAttribute("class", "PersonalizationHeader");
+
+var green = document.createElement("div");
+
+document.body.appendChild(green);
+green.setAttribute("class", "Green");
+
+green.onclick = function Green()
+{
+document.body.style.backgroundColor = "green";
+};
+
+var red = document.createElement("div");
+
+document.body.appendChild(red);
+red.setAttribute("class", "Red");
+
+red.onclick = function Red()
+{
+document.body.style.backgroundColor = "red";
+};
+
 };
