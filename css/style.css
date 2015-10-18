@@ -9,5 +9,5 @@ body{background-color: red;}
 .PersonalizationHeader{text-align: center; color: blue; position: relative; top: 200px;}
 .Green{position: relative; width: 200px; height: 200px; background-color: green; left: 400px; top: 250px;}
 .Green:hover{background-color: rgb(0,75,0);}
-.Red{position: relative; width: 200px; height: 200px; background-color: red; left: 400px; top: 250px;}
+.Red{position: relative; width: 200px; height: 200px; background-color: red; left: 700px; top: 50px;}
 .Red:hover{background-color: rgb(75,0,0);}
